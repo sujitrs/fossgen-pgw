@@ -1,3 +1,36 @@
+
+```
+String reqStr="{\n" +
+                "\"mercid\":\"UFOSSGENV2\",\n" +
+                "\"orderid\":\"UATM4xcdfrdrfdd\",\n" +
+                "\"amount\":\"100.00\",\n" +
+                "\"order_date\":\"2024-02-20T10:12:00+05:30\",\n" +
+                "\"currency\":\"356\",\n" +
+                "\"ru\":\"https://www.merchant.com/\",\n" +
+                "\"additional_info\":{\n" +
+                "  \"additional_info1\":\"Test\",\n" +
+                "  \"additional_info2\":\"Test1\"\n" +
+                "  },\n" +
+                "\"itemcode\":\"DIRECT\",\n" +
+                "\"device\":{\n" +
+                "  \"init_channel\":\"internet\",\n" +
+                "  \"ip\":\"76.76.21.21\",\n" +
+                "  \"user_agent\":\"Mozilla/5.0(WindowsNT10.0;WOW64;rv:51.0)Gecko/20100101Firefox/51.0\",\n" +
+                "  \"accept_header\":\"text/html\",\n" +
+                "  \"browser_tz\":\"-330\",\n" +
+                "  \"browser_color_depth\":\"32\",\n" +
+                "  \"browser_java_enabled\":\"false\",\n" +
+                "  \"browser_screen_height\":\"601\",\n" +
+                "  \"browser_screen_width\":\"657\",\n" +
+                "  \"browser_language\":\"en-US\",\n" +
+                "  \"browser_javascript_enabled\":\"true\"\n" +
+                "  }\n" +
+                "}";
+        String secretKey="vZZHdJktOjTaLc6RllHPC077qdaD3Tv3";
+        String clientid="ufossgenv2";
+```
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
